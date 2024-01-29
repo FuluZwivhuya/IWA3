@@ -1,6 +1,6 @@
 // scripts.js
-const company = 'ACME Inc.';
-const year = 2022;
+import { company } from "./configuration.js";
+import { year } from "./configuration.js";
 
 const message = '© '+ company + year
 document.querySelector('[data-key="footer"]').innerText = message;
